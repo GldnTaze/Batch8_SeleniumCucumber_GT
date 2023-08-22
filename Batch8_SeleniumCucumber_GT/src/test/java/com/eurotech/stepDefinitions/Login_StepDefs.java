@@ -94,5 +94,7 @@ public class Login_StepDefs {
     public void theUserLoginsWithFollowingCredentials(List<String> userCredentials) {
         loginPage.login(userCredentials.get(0), userCredentials.get(1));
     }
+
+
 }
 
